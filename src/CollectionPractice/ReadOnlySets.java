@@ -10,6 +10,9 @@ public class ReadOnlySets {
 		// TODO Auto-generated method stub
           //make read only set
 		  Integer[] First_10 = {1,2,3,4,5,6,7,8,9,10};
+		  
+		  //this line does not give array elements instead 'll give address of an array
+		  System.out.println(First_10);
 		
 		  Set<Integer> s1 = new HashSet<>();
 		  
